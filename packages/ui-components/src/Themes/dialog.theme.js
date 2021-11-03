@@ -1,0 +1,67 @@
+import themeConstants from '../constants/constants';
+
+const dialogTheme = (theme = 'dark') => ({
+  primary: {
+    background: themeConstants[theme].colorCardGrey,
+    borderColor: 'none',
+    borderRadius: '6px',
+    color: themeConstants[theme].colorWhite,
+    height: '619px',
+    maxWidth: '770px',
+    minWidth: '770px',
+    padding: '40px',
+    width: '770px',
+  },
+  upload: {
+    background: themeConstants[theme].colorCardGrey,
+    borderColor: 'none',
+    borderRadius: '6px',
+    color: themeConstants[theme].colorWhite,
+    height: 'auto',
+    maxWidth: '350px',
+    minWidth: '350px',
+    padding: '20px',
+    width: '350px',
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
+  },
+  secondary: {
+    background: themeConstants[theme].colorCardGrey,
+    borderColor: 'none',
+    color: themeConstants[theme].colorWhite,
+    width: '770px',
+    maxWidth: '770px',
+    minWidth: '770px',
+    height: 'auto',
+    maxHeight: '741px',
+    minHeight: '701x',
+    borderRadius: '5px',
+    padding: '0',
+  },
+
+  uploading: {
+    background: themeConstants[theme].colorCardGrey,
+    borderRadius: '10px',
+    position: 'absolute',
+    right: '10px',
+    bottom: '10px',
+    width: '370px',
+    maxWidth: '370px',
+    minWidth: '370px',
+    height: '294px',
+  },
+  preview: {
+    background: themeConstants[theme].colorCardGrey,
+    borderColor: 'none',
+    borderRadius: '5px',
+    color: themeConstants[theme].colorWhite,
+    height: '619px',
+    maxWidth: '770px',
+    minWidth: '770px',
+    padding: '0px',
+    width: '770px',
+    overflow: 'hidden',
+  },
+});
+
+export default dialogTheme;

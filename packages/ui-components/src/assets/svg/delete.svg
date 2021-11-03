@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>XLIV/Component/IconsButton/Delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M13,8 L13,15 L7,15 L7,8 L13,8 Z M7,5 L13,5 L13,6 L14,6 L14,7 L6,7 L6,6 L7,6 L7,5 Z" id="path-1"></path>
+    </defs>
+    <g id="XLIV/Component/IconsButton/Delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+        <g id="XLIV/Color/N07-Light-Grey" mask="url(#mask-2)" fill="#8C8C8C">
+            <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+        </g>
+    </g>
+</svg>

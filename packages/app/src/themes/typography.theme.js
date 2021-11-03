@@ -1,0 +1,102 @@
+import { fontFamily } from 'constants/constants';
+import themeConstants from './constants';
+
+export const typographyTheme = (theme = 'dark', font = null, error) => {
+  return {
+    primary: {
+      color: themeConstants[theme].colorWhite,
+      font: fontFamily[font || 'regular'],
+      lineHeight: '25px',
+      margin: '0',
+      size: '18px',
+      textAlign: 'left',
+    },
+    secondary: {
+      color: themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'medium'],
+      lineHeight: '16px',
+      margin: '0 ',
+      size: '12px',
+      textAlign: 'left',
+    },
+    other: {
+      color: error ? '#f44336' : themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'medium'],
+      lineHeight: '16px',
+      margin: '0',
+      size: '12px',
+      textAlign: 'left',
+    },
+    link: {
+      color: themeConstants[theme].colorWhite,
+      font: fontFamily[font || 'medium'],
+      lineHeight: '16px',
+      margin: '0',
+      size: '12px',
+      textAlign: 'left',
+    },
+    h1: {
+      color: themeConstants[theme].colorWhite,
+      font: fontFamily[font || 'book'],
+      lineHeight: '41px',
+      margin: '0',
+      size: '30px',
+      textAlign: 'center',
+    },
+    info: {
+      color: themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'medium'],
+      lineHeight: '17px',
+      margin: '0',
+      size: '13px',
+      textAlign: 'left',
+    },
+    infoProfile: {
+      color: themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'regular'],
+      lineHeight: '19px',
+      margin: '0',
+      size: '14px',
+      textAlign: 'left',
+    },
+    drawerTitle: {
+      font: fontFamily[font || 'extraBold'],
+      size: '18px',
+      lineHeight: '25px',
+      letterSpacing: '3.86px',
+      color: themeConstants[theme].colorBlueHighlights,
+    },
+    infoWhite: {
+      color: themeConstants[theme].colorWhite,
+      font: fontFamily.book,
+      lineHeight: '19px',
+      margin: '0',
+      size: '14px',
+      textAlign: 'left',
+    },
+    roleInfo: {
+      color: error ? '#f44336' : themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'book'],
+      lineHeight: '16px',
+      margin: '0',
+      size: '12px',
+      textAlign: 'left',
+    },
+    deviceInfo: {
+      color: themeConstants[theme].colorLightGrey,
+      font: fontFamily[font || 'regular'],
+      lineHeight: '20px',
+      margin: '0',
+      size: '12px',
+      textAlign: 'left',
+    },
+    updateStatus: {
+      color: themeConstants[theme].colorBlueHighlights,
+      font: fontFamily[font || 'bold'],
+      lineHeight: '16px',
+      margin: '0',
+      size: '12px',
+      textAlign: 'left',
+    },
+  };
+};

@@ -1,0 +1,68 @@
+import themeConstants from 'themes/constants';
+
+const basicActionsTheme = (theme = 'dark') => {
+  return {
+    buttonPrimary: {
+      border: 'none',
+      disabledBgColor: '#666',
+      disabledBorder: '2px solid #ccc',
+      disabledColor: '#ccc',
+      fontFamily: 'Typold Medium',
+      fontSize: '14px',
+      height: '40px',
+      width: 'auto',
+      minWidth: '168px',
+      lineHeight: '19px',
+      padding: '10px 10px',
+      variant: 'contained',
+      backgroundColor: themeConstants[theme].colorButtonNormalGrey,
+      color: themeConstants[theme].colorLightGrey,
+      onHoverColor: themeConstants[theme].colorWhite,
+      onHoverBgColor: themeConstants[theme].colorButtonHoverGrey,
+      onFocusBgColor: themeConstants[theme].colorGradientHighlights,
+      onFocusBorder: 'none',
+      onFocusColor: themeConstants[theme].colorWhite,
+    },
+    viewToggleButton: {
+      activeBtnBgColor: themeConstants[theme].colorButtonHoverGrey,
+      activeBtnColor: themeConstants[theme].colorPeacockBlue,
+      borderRadius: '5px',
+      btnGroupBgColor: themeConstants[theme].colorUIElementGrey,
+      btnGroupSpacing: '0px',
+      height: '40px',
+      inActiveBtnBgColor: themeConstants[theme].colorUIElementGrey,
+      inActiveBtnColor: themeConstants[theme].colorLightGrey,
+      labelColor: themeConstants[theme].colorLightGrey,
+      title: '',
+      width: '80px',
+      btnHeight: '40px',
+      btnMargin: '0',
+      btnWidth: '40px',
+      btnMinWidth: '40px',
+    },
+    searchButton: {
+      border: 'none',
+      disabledBgColor: '#666',
+      disabledBorder: '2px solid #ccc',
+      disabledColor: '#ccc',
+      fontFamily: 'Typold Medium',
+      fontSize: '14px',
+      height: '40px',
+      width: '40px',
+      minWidth: '40px',
+      lineHeight: '19px',
+      padding: '10px 10px',
+      variant: 'contained',
+
+      backgroundColor: themeConstants[theme].colorLightEnglishGrey,
+      color: themeConstants[theme].colorLightGrey,
+      onHoverColor: themeConstants[theme].colorLightGrey,
+      onHoverBgColor: themeConstants[theme].colorLightEnglishGrey,
+      onFocusBgColor: themeConstants[theme].colorGradientHighlights,
+      onFocusBorder: 'none',
+      onFocusColor: themeConstants[theme].colorLightGrey,
+    },
+  };
+};
+
+export default basicActionsTheme;

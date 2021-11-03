@@ -1,0 +1,62 @@
+{
+    "extends": ["stylelint-config-styled-components"],
+    "defaultSeverity": "warning",
+    "plugins": ["stylelint-scss"],
+    "rules": {
+      "color-no-invalid-hex": [
+        true,
+        {
+          "message": "Color name should be a valid hex value"
+        }
+      ],
+      "font-family-no-duplicate-names": true,
+      "font-family-name-quotes": "always-where-required",
+      "font-family-no-missing-generic-family-keyword": true,
+      "function-calc-no-invalid": true,
+      "function-calc-no-unspaced-operator": true,
+      "string-no-newline": true,
+      "unit-no-unknown": true,
+      "property-no-unknown": true,
+      "declaration-block-no-duplicate-properties": true,
+      "selector-pseudo-class-no-unknown": true,
+      "selector-pseudo-element-no-unknown": true,
+      "selector-type-no-unknown": true,
+      "media-feature-name-no-unknown": true,
+      "unit-whitelist": ["em", "rem", "px", "%"],
+      "no-empty-source": null,
+      "function-url-quotes": "always",
+      "selector-attribute-quotes": "always",
+      "number-leading-zero": null,
+      "no-extra-semicolons": true,
+      "color-named": [
+        "never",
+        {
+          "message": "Color name should be a hex value"
+        }
+      ],
+      "length-zero-no-unit": [true, { "ignore": ["padding", "margin"] }],
+      "number-max-precision": 2,
+      "shorthand-property-no-redundant-values": true,
+      "value-no-vendor-prefix": [true, { "ignoreValues": ["max-content", "min-content"] }],
+      "property-no-vendor-prefix": true,
+      "declaration-block-no-redundant-longhand-properties": true,
+      "declaration-block-single-line-max-declarations": 1,
+      "color-hex-case": "lower",
+      "color-hex-length": "short",
+      "function-max-empty-lines": 0,
+      "function-name-case": "lower",
+      "function-whitespace-after": "always",
+      "unit-case": "lower",
+      "value-keyword-case": "lower",
+      "property-case": "lower",
+      "declaration-block-semicolon-newline-after": "always",
+      "declaration-block-trailing-semicolon": "always",
+      "rule-empty-line-before": [
+        "always",
+        { "ignore": ["after-comment", "first-nested", "inside-block"] }
+      ],
+      "linebreaks": "unix",
+      "no-eol-whitespace": true
+    }
+  }
+  

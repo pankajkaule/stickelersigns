@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root,
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Typold Regular';
+  src: local('Typold Regular'), url(./assets/fonts/typold/Typold_Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Typold Bold';
+  src: local('Typold Bold'), url(./assets/fonts/typold/Typold_Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Typold Medium';
+  src: local('Typold Medium'), url(./assets/fonts/typold/Typold_Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Typold Book';
+  src: local('Typold Book'), url(./assets/fonts/typold/Typold_Book.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Typold ExtraBold';
+  src: local('Typold ExtraBold'), url(./assets/fonts/typold/Typold_ExtraBold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Typold thin';
+  src: local('Typold thin'), url(./assets/fonts/typold/Typold_Extended_Thin.otf) format('opentype');
+}
